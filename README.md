@@ -33,3 +33,9 @@ Now go to your site published https://[username].github.io/[repository]/
 Add `site` at the end of url;
 
 https://[username].github.io/[repository]/site
+
+### Adding browser-sync to quicckly load site:
+
+In your command line, move to the folder where html file is locate and add the following command:
+
+[user]@[host-name]:~/[folder]/[repo]/site$ browser-sync start --server --directory --files "*"
