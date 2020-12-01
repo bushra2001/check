@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Create a Github page:
+Go to Settings ~ Github Pages ~ Branch = main ~ change theme to your desired theme 
 
-You can use the [editor on GitHub](https://github.com/bushra2001/check/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Save it
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Beneath Github pages you will find a url like:
 
-### Markdown
+Your site is published at https://[username].github.io/[repository]/
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Create Hello World site in github page:
 
-```markdown
-Syntax highlighted code block
+Create a folder site in repository
 
-# Header 1
-## Header 2
-### Header 3
+Add index.html in site folder
 
-- Bulleted
-- List
+```index.html
 
-1. Numbered
-2. List
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+<h1>Hello World!</h1>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+</body>
+</html>
 ```
+Now go to your site published https://[username].github.io/[repository]/
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Add site at the end of url;
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bushra2001/check/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+https://[username].github.io/[repository]/
