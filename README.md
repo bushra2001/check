@@ -30,6 +30,6 @@ Add index.html in site folder
 ```
 Now go to your site published https://[username].github.io/[repository]/
 
-Add site at the end of url;
+Add `site` at the end of url;
 
-https://[username].github.io/[repository]/
+https://[username].github.io/[repository]/site
